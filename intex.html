@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Dish a Day | Home</title>
+        <!--<link rel="stylesheet" type="text/css" href="styles/style_index.css">-->
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="icon" href="assets/logos/title_icon.png" type="image/icon type">
+
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">-->
+        <link rel="stylesheet" href="jj.css">
+    </head>
+    <body>
+       
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="index.html">
+                        <i class="material-icons">restaurant_menu</i>Dish A Day
+                    </a>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#latest_recipes">Latest Recipes</a></li>
+                <li><a href="index.html#cuisines">Cuisines</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="map.html">Explore Recipes</a></li>
+                <li><a href="create_recipe.html" style="text-decoration: none;">Create Recipe</a></li>
+            </ul>
+        </nav>
+
+        <!--Welcome Content-->
+        <div class="container">
+            <table>
+                <tr>
+                    <td>
+                        <h1>Learn. Cook. Share.<br>Cooking Made Easy.</h1>
+                        <p>Say good bye to long and frustrating food blogs and recipe videos.<br>Access our recipe cards to prepare any dish in minutes.</p>
+                        <a class="btn-primary" style="text-decoration: none;" href="#search_recipes">Browse Recipes</a>
+                    </td>
+                    <td>
+                        <img src="assets/main/main_plate.png">
+                    </td>
+                </tr>
+            </table>
+            
+            <h1 style="font-size: 3rem;">Search Recipes</h1>
+            <form action="" id="search_recipes">
+                <input type="search" onkeyup="searchList()" placeholder="Search for Cusines, Recipies..." id="search_key">
+                <i class="fa fa-search" onclick="searchList()"></i>
+            </form>
+
+            <div class="variable_zone">
+
+            <!--Recipe Cards-->
+            <h2 id="latest_recipes">Latest Recipes</h2>
+            <div class="recipe-list">
+                <div class="recipe-card">
+                   <a href="recipes/south_indian/south_filter_coffee.html" target="_blank">
+                        <img src="https://farm8.staticflickr.com/7743/17233968188_c5b24fd7d8_o.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Kumbakonam Filter Coffee</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/north_indian/North_Lucknow_Biryani.html" target="_blank">
+                        <img src="https://wallpaperaccess.com/full/4622433.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Lucknow Biriyani</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/italian/italian_lasagna.html" target="_blank">
+                        <img src="https://www.cookingclassy.com/wp-content/uploads/2020/03/lasagna-01-1.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Lasagne</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/drinks/drinks_falooda.html" target="_blank">
+                        <img src="https://www.spiceupthecurry.com/wp-content/uploads/2014/04/Homemade-falooda-recipe-3.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Falooda</h4>
+                </div>
+            
+            <h2 id="cuisines">South Indian Cuisine</h2>
+            <div class="recipe-list">
+                <div class="recipe-card">
+                    <a href="recipes/south_indian/south_filter_coffee.html" target="_blank">
+                        <img src="assets/cusines/recipes/south_indian/south_filter_coffee.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Kumbakonam Filter Coffee</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/south_indian/south_ven_pongal.html" target="_blank">
+                        <img src="assets/cusines/recipes/south_indian/south_ven_pongal.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Ven Pongal</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/south_indian/south_ghee_roast.html" target="_blank">
+                        <img src="assets/cusines/recipes/south_indian/south_ghee_roast.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Ghee Roast</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/south_indian/south_podi_idli.html" target="_blank">
+                        <img src="assets/cusines/recipes/south_indian/south_podi_idli.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Podi Idli</h4>
+                </div>
+
+                
+
+            <h2>North Indian Cuisine</h2>
+            <div class="recipe-list">
+                <div class="recipe-card">
+                    <a href="recipes/north_indian/north_chole_bhature.html" target="_blank">
+                        <img src="assets/cusines/recipes/north_indian/North_Chole_Bhature.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Chole Bhature</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/north_indian/north_matar_paneer.html" target="_blank">
+                        <img src="assets/cusines/recipes/north_indian/North_Matar_Paneer.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Matar Paneer</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/north_indian/North_Rajma_Chawal.html" target="_blank">
+                        <img src="assets/cusines/recipes/north_indian/North_Rajma_Chawal.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Rajma Chawal</h4>
+                </div>
+
+                <div class="recipe-card">
+                    <a href="recipes/north_indian/noth_Dal_Makhani.html" target="_blank">
+                        <img src="assets/cusines/recipes/north_indian/North_Dal_Makhani.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Dal Makhni</h4>
+                </div>
+            </div>
+
+            <h2>Italian Cuisine</h2>
+            <div class="recipe-list">
+                <div class="recipe-card">
+                    <a href="recipes/italian/italian_arancini.html" target="_blank">
+                        <img src="assets/cusines/recipes/italian/Italian_Arancini.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Arancini</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/italian/italian_bagna_cauda.html" target="_blank">
+                        <img src="assets/cusines/recipes/italian/Italian_Bagna_Cauda.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Bagna Cauda</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/italian/italian_focaccia.html" target="_blank">
+                        <img src="assets/cusines/recipes/italian/Italian_Focaccia.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Focaccia</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/italian/italian_gnocchi.html" target="_blank">
+                        <img src="assets/cusines/recipes/italian/Italian_Gnocchi.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Gnocchi</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/italian/italian_lasagna.html" target="_blank">
+                        <img src="assets/cusines/recipes/italian/Italian_Lasagna.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Lasagne</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/italian/italian_pizza.html" target="_blank">
+                        <img src="assets/cusines/recipes/italian/Italian_Pizza.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Pizza</h4>
+                </div>
+            </div>
+
+            <h2>Chinese Cuisine</h2>
+            <div class="recipe-list">
+                <div class="recipe-card">
+                    <a href="recipes/chinese/chinese_chow_mein.html" target="_blank">
+                        <img src="assets/cusines/recipes/chinese/chinese_chow_mein.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Chow Mein</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/chinese/chinese_fried_rice.html" target="_blank">
+                        <img src="assets/cusines/recipes/chinese/chinese_fried_rice.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Schezwan Fried Rice</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/chinese/chinese_Manchurian.html" target="_blank">
+                        <img src="assets/cusines/recipes/chinese/chinese_veg_manchurian.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Veg Ball Manchurian</h4>
+                </div>
+            </div>
+
+            <h2>Beverages/Drinks</h2>
+            <div class="recipe-list">
+                <div class="recipe-card">
+                    <a href="recipes/drinks/drinks_lassi.html" target="_blank">
+                        <img src="assets/cusines/recipes/drinks/drinks_lassi.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Sweet Lassi</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/drinks/drinks_falooda.html" target="_blank">
+                        <img src="assets/cusines/recipes/drinks/drinks_falooda.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Falooda</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/drinks/drinks_jaljeera.html" target="_blank">
+                        <img src="assets/cusines/recipes/drinks/drinks_Jaljeera.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Jaljeera</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/drinks/drinks_jigarthanda.html" target="_blank">
+                        <img src="assets/cusines/recipes/drinks/drinks_Jigarthanda.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Madurai Jigarthanda</h4>
+                </div>
+            </div>
+
+            <h2>Desserts</h2>
+            <div class="recipe-list">
+                <div class="recipe-card">
+                    <a href="recipes/dessert/desert_chakkara_pongal.html" target="_blank">
+                        <img src="assets/cusines/recipes/dessert/desert_chakara_pongal.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Chakra Pongal</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/dessert/desert_Kozhukattai.html" target="_blank">
+                        <img src="assets/cusines/recipes/dessert/desert_kozhukattai.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Mothagam</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/dessert/desert_mysore_pak.html" target="_blank">
+                        <img src="assets/cusines/recipes/dessert/desert_mysore_pak.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Mysore Pak</h4>
+                </div>
+                <div class="recipe-card">
+                    <a href="recipes/dessert/dessert_gajar_ka_halwa.html" target="_blank">
+                        <img src="assets/cusines/recipes/dessert/Dessert_Gajar_Ka_Halwa.jpg" style="width: 250px; height: 370px; padding-left: 5px; padding-right: 5px;">
+                    </a>
+                    <h4>Gajar ka Halwa</h4>
+                </div>
+                
+            </div>
+            </div>
+            <br><br>
+
+
+        </div>
+        <div class="contact-us" id="contact">
+            <h2>About Us</h2>
+            <h3>Our Team</h3>
+            <div class="contact-card">
+                <div class="contact-item">
+                    <img src="assets/team/ashwin.jpg">
+                    <h4>Hriday Sakar</h4>
+                    <p>Team Member</p>
+                </div>
+                <div class="contact-item">
+                    <img src="assets/team/thilak.jpeg">
+                    <h4>Zius Kumar</h4>
+                    <p>Team Member</p>
+                </div>
+                <div class="contact-item">
+                    <img src="assets/team/ganesh.jpg">
+                    <h4>Ayan Anwar</h4>
+                    <p>Team member</p>
+                </div>
+            </div>
+        
+    </body>
+</html>
